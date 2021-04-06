@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import sectionsData from "./directory.data";
+import SECTION_DATA from "./directory.data";
 
 import MenuItem from "../menu-item/menu-item.component";
 
@@ -10,7 +10,7 @@ const Directory = () => {
   const [sections, setSections] = useState([]);
 
   useEffect(() => {
-    setSections(sectionsData);
+    setSections(SECTION_DATA);
   }, []);
 
   return (
