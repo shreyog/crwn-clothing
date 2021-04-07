@@ -31,7 +31,7 @@ const SignIn = () => {
           name="email"
           value={email}
           handleChange={handleChange.bind(this, setEmail)}
-          label="email"
+          label="Email"
           required
         />
         <FormInput
@@ -39,7 +39,7 @@ const SignIn = () => {
           name="password"
           value={password}
           handleChange={handleChange.bind(this, setPassword)}
-          label="password"
+          label="Password"
           required
         />
         <div className="buttons">
